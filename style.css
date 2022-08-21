@@ -1,0 +1,53 @@
+.content {
+    background-color: greenyellow;
+}
+
+.navbar {
+    background-color: red;
+}
+
+.pagination{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-color: greenyellow;
+}
+
+.page{
+    padding:20px;
+    cursor:pointer;
+    font-weight: bold;
+}
+
+.current{
+    padding: 10px 20px;
+    border-radius: 50%;
+    border: 5px solid red;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.title {
+    font-family: calibri;
+    font-weight: bold;
+    /* text-align: center; */
+    font-size: 17px;
+}
+
+.card {
+    min-height: 470px;
+}
+
+.card-img-top {
+    max-height: 310px;
+}
+
+.small{
+    color:var(--secondary-color);
+    background-color: var(--primary-color);
+    padding: 0.25rem 0.5rem;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
