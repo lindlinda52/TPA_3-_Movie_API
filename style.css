@@ -1,9 +1,9 @@
 .content {
-    background-color: greenyellow;
+    background-color: lightgreen;
 }
 
 .navbar {
-    background-color: red;
+    background-color: lawngreen;
 }
 
 .pagination{
@@ -11,7 +11,7 @@
     align-items: center;
     justify-content: center;
     color: black;
-    background-color: greenyellow;
+    background-color: lawngreen;
 }
 
 .page{
@@ -23,18 +23,20 @@
 .current{
     padding: 10px 20px;
     border-radius: 50%;
-    border: 5px solid red;
+    border: 5px solid greenyellow;
     font-size: 20px;
     font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .title {
-    font-family: calibri;
+    font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
-    /* text-align: center; */
     font-size: 17px;
 }
-
+.album {
+    text-align: center;
+}
 .card {
     min-height: 470px;
 }
